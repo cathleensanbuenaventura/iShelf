@@ -41,21 +41,6 @@ A Qt-based library management system application with SQLite persistence, built 
 
 ---
 
-## Setup & Build
-
-> **Note:** The database path is hardcoded to `/home/student/Team_50_D2/Team_50_D2/hinlibs.sqlite3`.
-> The project folder must be placed at exactly that location on the VM.
-
-```
-/home/student/
-└── Team_50_D2/
-    └── Team_50_D2/       ← clone/place this repo here
-        ├── 3004-Project.pro
-        ├── hinlibs.sqlite3
-        ├── src/
-        └── ...
-```
-
 1. Open Qt Creator.
 2. **File → Open File or Project…** → select `3004-Project.pro`.
 3. Accept the default Qt kit and click **Configure Project**.
@@ -77,7 +62,7 @@ All usernames are case-insensitive. No password is required.
 
 ---
 
-## Database
+## DB
 
 `hinlibs.sqlite3` ships pre-populated with the project:
 
